@@ -6,6 +6,9 @@
     "@wind-pioneers/components": "workspace:^",
     "@wind-pioneers/core": "workspace:^"
   },
+  "scripts": {
+    "build": "tsc"
+  },
   "devDependencies": {
     "typescript": "^5.2.2"
   }
