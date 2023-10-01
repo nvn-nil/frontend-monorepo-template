@@ -1,1 +1,3 @@
 We need this here for tailwind, there might be a different way but this is only a POC
+
+Tailwind presets require tokens in a js form, so we'll feed this directly into the tailwind preset
