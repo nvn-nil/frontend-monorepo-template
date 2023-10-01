@@ -1,5 +1,10 @@
 {
   "name": "@wind-pioneers/storybook",
   "packageManager": "yarn@3.6.3",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@wind-pioneers/components": "workspace:^",
+    "@wind-pioneers/core": "workspace:^",
+    "@wind-pioneers/frontend": "workspace:^"
+  }
 }
