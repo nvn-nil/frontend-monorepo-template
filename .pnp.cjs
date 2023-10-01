@@ -48,6 +48,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -57,7 +58,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/components/",\
           "packageDependencies": [\
             ["@wind-pioneers/components", "workspace:packages/components"],\
-            ["@wind-pioneers/core", "workspace:packages/core"]\
+            ["@wind-pioneers/core", "workspace:packages/core"],\
+            ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -66,7 +68,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         ["workspace:packages/core", {\
           "packageLocation": "./packages/core/",\
           "packageDependencies": [\
-            ["@wind-pioneers/core", "workspace:packages/core"]\
+            ["@wind-pioneers/core", "workspace:packages/core"],\
+            ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -77,7 +80,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@wind-pioneers/frontend", "workspace:packages/frontend"],\
             ["@wind-pioneers/components", "workspace:packages/components"],\
-            ["@wind-pioneers/core", "workspace:packages/core"]\
+            ["@wind-pioneers/core", "workspace:packages/core"],\
+            ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -89,7 +93,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@wind-pioneers/storybook", "workspace:packages/storybook"],\
             ["@wind-pioneers/components", "workspace:packages/components"],\
             ["@wind-pioneers/core", "workspace:packages/core"],\
-            ["@wind-pioneers/frontend", "workspace:packages/frontend"]\
+            ["@wind-pioneers/frontend", "workspace:packages/frontend"],\
+            ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -98,9 +103,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         ["workspace:.", {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["frontend-restructure", "workspace:."]\
+            ["frontend-restructure", "workspace:."],\
+            ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
           ],\
           "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["typescript", [\
+        ["patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441", {\
+          "packageLocation": "./.yarn/cache/typescript-patch-2e8dbfb8ab-0f4da2f15e.zip/node_modules/typescript/",\
+          "packageDependencies": [\
+            ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]]\
     ]\

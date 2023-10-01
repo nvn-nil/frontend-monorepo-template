@@ -1,5 +1,8 @@
 {
   "name": "@wind-pioneers/core",
   "packageManager": "yarn@3.6.3",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }

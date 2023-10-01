@@ -6,5 +6,8 @@
     "@wind-pioneers/components": "workspace:^",
     "@wind-pioneers/core": "workspace:^",
     "@wind-pioneers/frontend": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
   }
 }
