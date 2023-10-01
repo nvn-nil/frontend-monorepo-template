@@ -7,6 +7,7 @@
     "typescript": "^5.2.2"
   },
   "scripts": {
-    "build-tokens": "style-dictionary build --config sd.config.js"
+    "build-tokens": "style-dictionary build --config sd.config.js",
+    "build": "yarn build-tokens && tsc"
   }
 }
