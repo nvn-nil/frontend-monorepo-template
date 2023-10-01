@@ -1,3 +1,2 @@
-const sayHello = (name: string) => `Hello, ${name}`
-
-export default sayHello
+const sayHello = (name: string) => `Hello, ${name}`;
+export default sayHello;
