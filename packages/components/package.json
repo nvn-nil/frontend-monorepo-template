@@ -1,5 +1,5 @@
 {
-  "name": "components",
+  "name": "@wind-pioneers/components",
   "packageManager": "yarn@3.6.3",
   "private": true
 }

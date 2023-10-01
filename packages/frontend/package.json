@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "@wind-pioneers/frontend",
   "packageManager": "yarn@3.6.3",
   "private": true
 }

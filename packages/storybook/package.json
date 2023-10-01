@@ -1,5 +1,5 @@
 {
-  "name": "storybook",
+  "name": "@wind-pioneers/storybook",
   "packageManager": "yarn@3.6.3",
   "private": true
 }
