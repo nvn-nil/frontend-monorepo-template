@@ -7,6 +7,8 @@ __metadata:
 "@wind-pioneers/components@workspace:^, @wind-pioneers/components@workspace:packages/components":
   version: 0.0.0-use.local
   resolution: "@wind-pioneers/components@workspace:packages/components"
+  dependencies:
+    "@wind-pioneers/core": "workspace:^"
   languageName: unknown
   linkType: soft
 
@@ -19,6 +21,9 @@ __metadata:
 "@wind-pioneers/frontend@workspace:^, @wind-pioneers/frontend@workspace:packages/frontend":
   version: 0.0.0-use.local
   resolution: "@wind-pioneers/frontend@workspace:packages/frontend"
+  dependencies:
+    "@wind-pioneers/components": "workspace:^"
+    "@wind-pioneers/core": "workspace:^"
   languageName: unknown
   linkType: soft
 
