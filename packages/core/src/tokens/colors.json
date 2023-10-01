@@ -1,0 +1,48 @@
+{
+    "colors": {
+        "primary": {
+            "main": {
+                "value": "#ffffff"
+            },
+            "light": {
+                "value": "#ffffff"
+            },
+            "dark": {
+                "value": "#ffffff"
+            }
+        },
+        "secondary": {
+            "main": {
+                "value": "#000000"
+            },
+            "light": {
+                "value": "#000000"
+            },
+            "dark": {
+                "value": "#000000"
+            }
+        },
+        "neutral": {
+            "main": {
+                "value": "#000000"
+            },
+            "light": {
+                "value": "#000000"
+            },
+            "dark": {
+                "value": "#000000"
+            }
+        },
+        "warning": {
+            "main": {
+                "value": "#000000"
+            },
+            "light": {
+                "value": "#000000"
+            },
+            "dark": {
+                "value": "#000000"
+            }
+        }
+    }
+}
