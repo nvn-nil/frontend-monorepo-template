@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {
     "@nvn-nil/components": "workspace:^",
-    "@nvn-nil/core": "workspace:^"
+    "@nvn-nil/core": "workspace:^",
+    "prop-types": "^15.8.1"
   },
   "scripts": {
     "build": "tsc"
