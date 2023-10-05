@@ -2088,6 +2088,7 @@ __metadata:
     "@nvn-nil/components": "workspace:^"
     "@nvn-nil/core": "workspace:^"
     "@nvn-nil/frontend": "workspace:^"
+    "@storybook/addon-a11y": ^7.4.6
     "@storybook/addon-essentials": 7.4.6
     "@storybook/addon-interactions": 7.4.6
     "@storybook/addon-links": 7.4.6
@@ -2735,6 +2736,35 @@ __metadata:
   version: 0.27.8
   resolution: "@sinclair/typebox@npm:0.27.8"
   checksum: 00bd7362a3439021aa1ea51b0e0d0a0e8ca1351a3d54c606b115fdcc49b51b16db6e5f43b4fe7a28c38688523e22a94d49dd31168868b655f0d4d50f032d07a1
+  languageName: node
+  linkType: hard
+
+"@storybook/addon-a11y@npm:^7.4.6":
+  version: 7.4.6
+  resolution: "@storybook/addon-a11y@npm:7.4.6"
+  dependencies:
+    "@storybook/addon-highlight": 7.4.6
+    "@storybook/channels": 7.4.6
+    "@storybook/client-logger": 7.4.6
+    "@storybook/components": 7.4.6
+    "@storybook/core-events": 7.4.6
+    "@storybook/global": ^5.0.0
+    "@storybook/manager-api": 7.4.6
+    "@storybook/preview-api": 7.4.6
+    "@storybook/theming": 7.4.6
+    "@storybook/types": 7.4.6
+    axe-core: ^4.2.0
+    lodash: ^4.17.21
+    react-resize-detector: ^7.1.2
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    react:
+      optional: true
+    react-dom:
+      optional: true
+  checksum: 3983591c882e4dab6a280bd3d333f75c1aa63f2d366dc1db9ab03ca967a9e16a049d319a609c1b81c4a49e0b934727ae9f56939e0803019abf956c230f02bba3
   languageName: node
   linkType: hard
 
@@ -5163,7 +5193,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axe-core@npm:^4.6.2":
+"axe-core@npm:^4.2.0, axe-core@npm:^4.6.2":
   version: 4.8.2
   resolution: "axe-core@npm:4.8.2"
   checksum: 8c19f507dabfcb8514e4280c7fc66e85143be303ddb57ec9f119338021228dc9b80560993938003837bda415fde7c07bba3a96560008ffa5f4145a248ed8f5fe
@@ -10698,6 +10728,18 @@ __metadata:
     "@types/react":
       optional: true
   checksum: 2c7fe9cbd766f5e54beb4bec2e2efb2de3583037b23fef8fa511ab426ed7f1ae992382db5acd8ab5bfb030a4b93a06a2ebca41377d6eeaf0e6791bb0a59616a4
+  languageName: node
+  linkType: hard
+
+"react-resize-detector@npm:^7.1.2":
+  version: 7.1.2
+  resolution: "react-resize-detector@npm:7.1.2"
+  dependencies:
+    lodash: ^4.17.21
+  peerDependencies:
+    react: ^16.0.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0
+  checksum: 55f4abad7f7523d16b081b5ab20f75c539a54a08253ce7e9df473d48386f42ceca6c31584ba9fa26e3528b498ef6685ec77fb9a22cffc97df05fb326d0bf1b26
   languageName: node
   linkType: hard
 
