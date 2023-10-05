@@ -18,7 +18,7 @@
       "lib": ["esnext", "dom"],
       "baseUrl": ".",
       "paths": {
-        "@wind-pioneers/*": ["packages/*/lib"]
+        "@nvn-nil/*": ["packages/*/lib"]
       }
     },
     "exclude": ["node_modules", "**/*.test.*"]

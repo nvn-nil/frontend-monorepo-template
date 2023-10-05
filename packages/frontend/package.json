@@ -1,10 +1,10 @@
 {
-  "name": "@wind-pioneers/frontend",
+  "name": "@nvn-nil/frontend",
   "packageManager": "yarn@3.6.3",
   "private": true,
   "dependencies": {
-    "@wind-pioneers/components": "workspace:^",
-    "@wind-pioneers/core": "workspace:^"
+    "@nvn-nil/components": "workspace:^",
+    "@nvn-nil/core": "workspace:^"
   },
   "scripts": {
     "build": "tsc"

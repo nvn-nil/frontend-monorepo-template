@@ -30,7 +30,7 @@ const flattenValue = (obj) => {
 };
 
 module.exports = {
-  prefix: 'some-prefix-',
+  prefix: 'nvn-nil-',
   // NOTE: We could recreate what's available from mui right now here, so we can get this working with minimal disruption from what we're used to
   // https://mui.com/material-ui/customization/theming/#theme-configuration-variables
   theme: {

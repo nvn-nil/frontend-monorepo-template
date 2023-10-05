@@ -115,6 +115,52 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nvn-nil/components@workspace:^, @nvn-nil/components@workspace:packages/components":
+  version: 0.0.0-use.local
+  resolution: "@nvn-nil/components@workspace:packages/components"
+  dependencies:
+    "@nvn-nil/core": "workspace:^"
+    "@types/react": 18.2.0
+    "@types/react-dom": 18.2.0
+    react: 18.2.0
+    react-dom: 18.2.0
+    typescript: ^5.2.2
+  peerDependencies:
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+  languageName: unknown
+  linkType: soft
+
+"@nvn-nil/core@workspace:^, @nvn-nil/core@workspace:packages/core":
+  version: 0.0.0-use.local
+  resolution: "@nvn-nil/core@workspace:packages/core"
+  dependencies:
+    style-dictionary: ^3.8.0
+    typescript: ^5.2.2
+  languageName: unknown
+  linkType: soft
+
+"@nvn-nil/frontend@workspace:^, @nvn-nil/frontend@workspace:packages/frontend":
+  version: 0.0.0-use.local
+  resolution: "@nvn-nil/frontend@workspace:packages/frontend"
+  dependencies:
+    "@nvn-nil/components": "workspace:^"
+    "@nvn-nil/core": "workspace:^"
+    typescript: ^5.2.2
+  languageName: unknown
+  linkType: soft
+
+"@nvn-nil/storybook@workspace:packages/storybook":
+  version: 0.0.0-use.local
+  resolution: "@nvn-nil/storybook@workspace:packages/storybook"
+  dependencies:
+    "@nvn-nil/components": "workspace:^"
+    "@nvn-nil/core": "workspace:^"
+    "@nvn-nil/frontend": "workspace:^"
+    typescript: ^5.2.2
+  languageName: unknown
+  linkType: soft
+
 "@pkgr/utils@npm:^2.3.1":
   version: 2.4.2
   resolution: "@pkgr/utils@npm:2.4.2"
@@ -309,52 +355,6 @@ __metadata:
   checksum: cef64173a919107f420703e204d97d0afef0d9bd7a67570df5bdb39ac9464211c5a7b3af735d8f41e8004b443ab83e88b1d6fb951886aed4d3fe9d4778667199
   languageName: node
   linkType: hard
-
-"@wind-pioneers/components@workspace:^, @wind-pioneers/components@workspace:packages/components":
-  version: 0.0.0-use.local
-  resolution: "@wind-pioneers/components@workspace:packages/components"
-  dependencies:
-    "@types/react": 18.2.0
-    "@types/react-dom": 18.2.0
-    "@wind-pioneers/core": "workspace:^"
-    react: 18.2.0
-    react-dom: 18.2.0
-    typescript: ^5.2.2
-  peerDependencies:
-    react: ">=16.8.0"
-    react-dom: ">=16.8.0"
-  languageName: unknown
-  linkType: soft
-
-"@wind-pioneers/core@workspace:^, @wind-pioneers/core@workspace:packages/core":
-  version: 0.0.0-use.local
-  resolution: "@wind-pioneers/core@workspace:packages/core"
-  dependencies:
-    style-dictionary: ^3.8.0
-    typescript: ^5.2.2
-  languageName: unknown
-  linkType: soft
-
-"@wind-pioneers/frontend@workspace:^, @wind-pioneers/frontend@workspace:packages/frontend":
-  version: 0.0.0-use.local
-  resolution: "@wind-pioneers/frontend@workspace:packages/frontend"
-  dependencies:
-    "@wind-pioneers/components": "workspace:^"
-    "@wind-pioneers/core": "workspace:^"
-    typescript: ^5.2.2
-  languageName: unknown
-  linkType: soft
-
-"@wind-pioneers/storybook@workspace:packages/storybook":
-  version: 0.0.0-use.local
-  resolution: "@wind-pioneers/storybook@workspace:packages/storybook"
-  dependencies:
-    "@wind-pioneers/components": "workspace:^"
-    "@wind-pioneers/core": "workspace:^"
-    "@wind-pioneers/frontend": "workspace:^"
-    typescript: ^5.2.2
-  languageName: unknown
-  linkType: soft
 
 "acorn-jsx@npm:^5.3.2":
   version: 5.3.2

@@ -1,11 +1,11 @@
 {
-  "name": "@wind-pioneers/storybook",
+  "name": "@nvn-nil/storybook",
   "packageManager": "yarn@3.6.3",
   "private": true,
   "dependencies": {
-    "@wind-pioneers/components": "workspace:^",
-    "@wind-pioneers/core": "workspace:^",
-    "@wind-pioneers/frontend": "workspace:^"
+    "@nvn-nil/components": "workspace:^",
+    "@nvn-nil/core": "workspace:^",
+    "@nvn-nil/frontend": "workspace:^"
   },
   "devDependencies": {
     "typescript": "^5.2.2"

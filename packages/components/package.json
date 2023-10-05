@@ -1,9 +1,9 @@
 {
-  "name": "@wind-pioneers/components",
+  "name": "@nvn-nil/components",
   "packageManager": "yarn@3.6.3",
   "private": true,
   "dependencies": {
-    "@wind-pioneers/core": "workspace:^"
+    "@nvn-nil/core": "workspace:^"
   },
   "devDependencies": {
     "@types/react": "18.2.0",
