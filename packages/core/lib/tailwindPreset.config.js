@@ -29,7 +29,7 @@ var flattenValue = function (obj) {
     return result;
 };
 module.exports = {
-    prefix: 'newline-',
+    prefix: 'nvn-nil-',
     // NOTE: We could recreate what's available from mui right now here, so we can get this working with minimal disruption from what we're used to
     // https://mui.com/material-ui/customization/theming/#theme-configuration-variables
     theme: {

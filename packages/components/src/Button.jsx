@@ -1,12 +1,20 @@
 import PropTypes from 'prop-types';
 import { forwardRef } from 'react';
+import styled from 'styled-components';
+import { tokens } from '@nvn-nil/core';
+
+export const ButtonStyled = styled.button`
+  cursor: pointer;
+  padding: 6px 12px;
+  background-color: ${tokens.colors.primary.main.value};
+`;
 
 export const Button = forwardRef(
   ({ disabled, loading, label, ...rest }, ref) => {
     return (
-      <button ref={ref} {...rest} disabled={disabled || loading}>
+      <ButtonStyled ref={ref} {...rest} disabled={disabled || loading}>
         {label}
-      </button>
+      </ButtonStyled>
     );
   },
 );

@@ -2,12 +2,14 @@
   "name": "@nvn-nil/core",
   "packageManager": "yarn@3.6.3",
   "private": true,
+  "main": "./lib/index.js",
   "devDependencies": {
     "style-dictionary": "^3.8.0",
     "typescript": "^5.2.2"
   },
   "scripts": {
     "build-tokens": "style-dictionary build --config sd.config.js",
-    "build": "yarn build-tokens && tsc"
+    "build": "yarn build-tokens && yarn build-tsc",
+    "build-tsc": "tsc --skipLibCheck"
   }
 }
